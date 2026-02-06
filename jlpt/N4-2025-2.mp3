@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="manifest" href="/manifest.json" />
+  <!-- Favicon cho trình duyệt (tab, bookmark) -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-32.png" />
+  <!-- Icon cho iOS khi add to Home Screen -->
+  <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192.png" />
+  <!-- Thiết lập responsive cho mobile/tablet -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Google Search Console -->
+  <meta name="google-site-verification" content="yDtjLgJRBHNh1z-O05_Ve4_1oJQdjAFOnghQXWag6fk" />
+  <!-- Google AdSense -->
+  <meta name="google-adsense-account" content="ca-pub-2512088607127607">
+  <!-- Tối ưu tải font Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap">
+  </noscript>
+  <!-- Preload ảnh chỉ khi viewport nhỏ -->
+  <link rel="preload" as="image" href="/images/sun.webp" type="image/webp" media="(max-width: 767px)">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8N0PRJLEC2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+  </script>
+  <title>Han-nichi</title>
+  <script type="module" crossorigin src="/assets/main-DqlUAYaV.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-BPnWfgKz.css">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+  </script>
+</body>
+</html>
